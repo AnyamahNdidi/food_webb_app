@@ -1,0 +1,9 @@
+.mainorderCon{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: scroll;
+  height: 300px;
+  width: 392px;
+
+}

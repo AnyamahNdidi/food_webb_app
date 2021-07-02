@@ -1,0 +1,91 @@
+.allCom{
+  display: flex;
+  height: 100vh;
+  width: auto;
+  
+}
+.sideManu{
+  height: 100vh;
+  width: 50px;
+  background: #DFDFDF;
+  position: fixed;
+
+  
+  
+
+}
+
+.middleCon{
+  
+  height: auto;
+ 
+  
+  margin-left: 50px;
+  width: 900px;
+  
+}
+
+@media only screen and (max-width: 1024px) {
+  .middleCon{
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .middleCon{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .middleCon{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .middleCon{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .middleCon{
+    margin-left: 0px;
+  }
+}
+
+.sideCom{
+  height: 100vh;
+  width: 400px;
+  background:#EAEAE9;
+  padding: 20px;
+  right: 0px; 
+  position:fixed;
+  
+  
+  
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .sideManu{
+    height: 100vh;
+    width: 100px;
+    background: red;
+    display: none;
+  
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sideCom{
+    height: 100vh;
+    width: 100px;
+    background: red;
+    display: none;
+  
+  }
+}

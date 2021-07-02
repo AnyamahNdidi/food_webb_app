@@ -1,0 +1,138 @@
+.allSearch{
+
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .allSearch{
+    display: flex;
+    justify-content: space-around;
+    width: 750px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .allSearch{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+  .allSearch{
+    display: flex;
+    justify-content: space-around;
+    width: 360px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .allSearch{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+  }
+}
+
+
+
+.burgerCon{
+  display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .burgerCon{
+    display: flex;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .burgerCon{
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+  .burgerCon{
+    display: flex;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .burgerCon{
+    display: flex;
+    align-items: center;
+  }
+}
+
+.mainCon{
+  width: 850px;
+  height: 40px;
+  background: #F0F0F0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  .mainCon{
+    width: 700px;
+    height: 35px;
+    background: #D0D0D0;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .mainCon{
+    width: 350px;
+    height: 35px;
+    background: #D0D0D0;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .mainCon{
+    width: 320px;
+    height: 35px;
+    background: #D0D0D0;
+    border-radius: 10px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .mainCon{
+    width: 260px;
+    height: 35px;
+    background: #D0D0D0;
+    border-radius: 10px;
+  }
+}
+.inputHolder{
+  width: 700px;
+ 
+  
+}
+.inputCon{
+  width: 550px;
+ 
+}
+.iconHolder{
+
+  height: 35px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
+.iconCon{
+  font-size: 30px;
+  color: #DEDEDE;
+}

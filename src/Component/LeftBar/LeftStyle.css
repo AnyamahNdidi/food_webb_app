@@ -1,0 +1,28 @@
+.leffConAll{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconConNav{
+  font-size:28px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  
+}
+
+.iconConNav :hover{
+ color: #FF8120;
+  
+
+}
+
+.iconConNavss{
+  font-size:30px;
+  cursor: pointer;
+}
+
+.iconConNavss :active{
+  color: #FF8120;
+}

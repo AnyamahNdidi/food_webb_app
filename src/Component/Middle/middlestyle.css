@@ -1,0 +1,43 @@
+.allmiddle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  flex-direction: column;
+  
+ 
+}
+
+.maincaro{
+  height: 300px;
+     background: orange;
+        width: 850px
+}
+
+@media only screen and (max-width: 768px) {
+  .maincaro{
+    width:750px
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .maincaro{
+    width:400px
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+  .maincaro{
+    width:350px
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .maincaro{
+    width:300px
+  }
+}
+
+
+

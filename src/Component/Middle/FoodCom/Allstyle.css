@@ -1,0 +1,36 @@
+.allconfood{
+  height: 250px;
+  width: 275px;
+  margin: 5px;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+
+}
+.imgFav{
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.imgCon{
+  height: 180px;
+  width: 260px;
+  background:pink;
+  object-fit: cover;
+  border-radius: 10px;
+
+}
+.conFav{
+  height: 50px;
+  width: 40px;
+  position:absolute;
+  top: 10px;
+  right: 0px;
+}
+.Buprice{
+  padding-top: 10px;
+  display: flex;
+  width: 250px;
+ 
+  justify-content:space-between;
+}
